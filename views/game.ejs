@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Current Player: <%= name %>!</h1>
+    <h1>Your health is <%= health %>!</h1>
+
+    <form action="/turn" method="post">
+      <input id="attack-button" type="submit" value="attack">
+    </form>
+  </body>
+</html>
